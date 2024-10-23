@@ -80,7 +80,6 @@ public class MenuService {
                     }
                 }
             }
-
         }catch (NullPointerException ignored){
             log.error("Null list");
             throw new NullPointerException("Not atleast one order in the list");
